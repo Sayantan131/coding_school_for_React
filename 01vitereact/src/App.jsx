@@ -1,10 +1,17 @@
 
 
+import Chai from "./chai"
+
 function App() {
  
 
   return (
-    <h1>Chai aur react with vite| Sayantan </h1>
+// fragment calls <> </>
+
+    <>
+   <Chai />   
+   <h1>chai</h1>
+   </>
   )
 }
 
