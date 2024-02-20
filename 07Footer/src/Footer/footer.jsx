@@ -7,55 +7,30 @@ const Footer=()=>{
             <div className="sb__footer section__padding">
                 <div className="sb__footer-links">
                     <div className="sb__footer-links_div">
-                        <h4>For Business</h4>
-                        <a href="/employer">
-                            <p>Employer</p>
-                        </a>
-                        <a href="/healthplan">
-                            <p>Health Planr</p>
-                        </a>
-                        <a href="/indivisual">
-                            <p>Indivisual</p>
-                        </a>
+                        <h4>About Us</h4>
+                      
                     </div>
                     <div className="sb__footer-links_div">
-                    <h4>Resources</h4>
-                        <a href="/resource">
-                            <p>Resource Center</p>
-                        </a>
-                        <a href="/resource">
-                            <p>Testimonials</p>
-                        </a>
-                        <a href="/resource">
-                            <p>STV</p>
-                        </a>
+                    <h4>Testimonials</h4>
+                       
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>Partners</h4>
-                        <a href="/employer">
-                            <p>Swing Tech</p>
-                        </a>
+                        <h4>Blog</h4>
+                       
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>Company</h4>
-                        <a href="/about">
-                            <p>About</p>
-                        </a>
-                        <a href="/press">
-                            <p>Press</p>
-                        </a>
-                        <a href="/career">
-                            <p>Career</p>
-                        </a>
-                        <a href="/career">
-                            <p>Career</p>
-                        </a>
-                        <a href="/contact">
-                            <p>Contact</p>
-                        </a>
+                        <h4>Corporate Office</h4>
+                       <div className="Details">
+                        <span>
+                        <p>Infinitive Holidays OPC Limited</p>
+                        <p>Address: DS Shivshakti Near Vidhyanakunj</p>
+                        <p>School Adajan, Surat Gujrat 395009</p>
+                        <p>Toll Free: +91 84678648000</p>
+                        </span>
+                       </div>
                     </div>
                     <div className="sb__footer-links_div">
-                        <h4>Coming soon on</h4>
+                        <h4>Contact With Us On</h4>
                         <div className="socialmedia">
                             <p><img src="{fb}" alt="fb" /></p>
                             <p><img src="{twiter}" alt="t" /></p>
@@ -63,7 +38,17 @@ const Footer=()=>{
                             <p><img src="{insta}" alt="in" /></p>
                         </div>
                     </div>
+                    <div className="sb__footer-links_div">
+                    <div className="another-details">
+                   
+                    <span>
+                        <p>Phone: 9090909000</p>
+                        <p>Mail: info.infinitiveholidays.com</p>
+                    </span>
+                    </div>
+                    </div>
                 </div>
+                
                 <hr></hr>
 
                 <div className="sb__footer-below">
@@ -81,6 +66,7 @@ const Footer=()=>{
                 </div>
             </div>
         </div>
+       
     )
 }
 

@@ -1,5 +1,5 @@
 .section__padding{
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
 }
 
 .footer{
@@ -13,27 +13,20 @@
 
 .sb__footer-links{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 2rem;
+   gap: 120px;
+   flex-wrap: wrap;
+   flex-direction: row;
+   text-align: left;
+   width: 100%;
+   margin-bottom: 0.5rem;
 }
 
+
 .sb__footer-links_div{
-    width:150px;
-    margin: 1rem;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     color: white;
-}
-
-a{
-    color: rgb(175, 175, 179);
-    text-decoration: none;
 }
 
 .socialmedia{
