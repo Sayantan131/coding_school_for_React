@@ -4,9 +4,9 @@ import './footer.css';
 const Footer=()=>{
     return (
         <div className="footer">
-            <div className="sb__footer section_padding">
+            <div className="sb__footer section__padding">
                 <div className="sb__footer-links">
-                    <div className="sb__footer-links-div">
+                    <div className="sb__footer-links_div">
                         <h4>For Business</h4>
                         <a href="/employer">
                             <p>Employer</p>
@@ -58,9 +58,9 @@ const Footer=()=>{
                         <h4>Coming soon on</h4>
                         <div className="socialmedia">
                             <p><img src="{fb}" alt="fb" /></p>
-                            <p><img src="{twiter}" alt="twiter" /></p>
-                            <p><img src="{linkedin}" alt="linkedin" /></p>
-                            <p><img src="{insta}" alt="insta" /></p>
+                            <p><img src="{twiter}" alt="t" /></p>
+                            <p><img src="{linkedin}" alt="li" /></p>
+                            <p><img src="{insta}" alt="in" /></p>
                         </div>
                     </div>
                 </div>
@@ -74,9 +74,9 @@ const Footer=()=>{
                     </div>
                     <div className="sb__footer-below-links">
                         <a href="/terms"><div><p>Terms & Conditions</p></div></a>
-                        <a href="/terms"><div><p>Privacy</p></div></a>
-                        <a href="/terms"><div><p>Cookies</p></div></a>
-                        <a href="/terms"><div><p>Corporate</p></div></a>
+                        <a href="/privacy"><div><p>Privacy</p></div></a>
+                        <a href="/security"><div><p>Security</p></div></a>
+                        <a href="/cookie"><div><p>Cookie Declaration</p></div></a>
                     </div>
                 </div>
             </div>
