@@ -1,6 +1,9 @@
 import React from "react";
 import './footer.css';
-
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 const Footer=()=>{
     return (
         <div className="footer">
@@ -32,10 +35,13 @@ const Footer=()=>{
                     <div className="sb__footer-links_div">
                         <h4>Contact With Us On</h4>
                         <div className="socialmedia">
-                            <p><img src="{fb}" alt="fb" /></p>
-                            <p><img src="{twiter}" alt="t" /></p>
-                            <p><img src="{linkedin}" alt="li" /></p>
-                            <p><img src="{insta}" alt="in" /></p>
+                            <div className="icon">
+                            <p className="style"><FaFacebook /></p>
+                            <p className="style"><FaInstagramSquare /></p>
+                            <p className="style"><FaTwitter /></p>
+                            <p className="style"><FaWhatsapp /></p>
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="sb__footer-links_div">

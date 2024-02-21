@@ -29,13 +29,18 @@
     color: white;
 }
 
-.socialmedia{
+.socialmedia .icon{
     display: flex;
     flex-direction: row;
+    
 }
 
-.socialmedia img{
+.socialmedia p{
     width: 80%;
+    font-size: 130px;
+}
+.socialmedia .style{
+    font-size: 24px;
 }
 
 .sb__footer-links_div h4{
