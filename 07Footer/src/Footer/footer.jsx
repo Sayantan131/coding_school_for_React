@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 const Footer=()=>{
     return (
         <div className="footer">
