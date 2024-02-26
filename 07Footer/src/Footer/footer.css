@@ -13,7 +13,7 @@
 
 .sb__footer-links{
     display: flex;
-   gap: 120px;
+   gap: 121px;
    flex-wrap: wrap;
    flex-direction: row;
    text-align: left;
